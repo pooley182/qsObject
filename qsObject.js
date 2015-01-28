@@ -15,7 +15,7 @@ function qsObject(qs){
 		var tempArr = qsParams[i].split('=');
 		qsObj[tempArr[0]] = (typeof tempArr[1] === "undefined") ? "" : tempArr[1];
 	};
-	if(qsId !== 'undefined' && qsId !== ''){
+	if(qsId !== undefined && qsId != ''){
 		qsObj['Id'] = qsId;
 	}
 
