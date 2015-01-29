@@ -9,7 +9,7 @@ it will parse the string and return it as a javascript object. for use within ot
 
 example usage
 ```JavaScript
-qsObject("Login.jsp?regnum=4995&password=&submitted=true#test")
+qsObject("?regnum=4995&password=&submitted=true#test")
 ```
 returns 
 ```JavaScript
