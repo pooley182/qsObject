@@ -7,7 +7,7 @@ function qsObject(qs){
 	}
 	var qsArray = qs.split('#');
 	var qsParams = qsArray[0].split('&');
-	var qsId = qsArray[1];
+	var qsAnchor = qsArray[1];
 	var qsObj = {};
 	for( i = 0; i < qsParams.length; ++i ){
 		/*create name value pairs and add them to a querystring object.
@@ -28,8 +28,8 @@ function qsObject(qs){
 			}
 		}
 	};
-	if(qsId !== undefined && qsId != ''){
-		qsObj['Id'] = qsId;
+	if(qsAnchor !== undefined && qsAnchor != ''){
+		qsObj['Anchor'] = qsAnchor;
 	}
 
 	return qsObj;
