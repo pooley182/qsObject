@@ -13,5 +13,5 @@ qsObject("?regnum=4995&password=&submitted=true#test")
 ```
 returns 
 ```JavaScript
-Object {regnum: "4995", password: "", submitted: "true", Id: "test"}
+Object {regnum: "4995", password: "", submitted: "true", Anchor: "test"}
 ```
